@@ -14,8 +14,12 @@ const ProfileCard = ({ education, summary }: ProfileCardProps) => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="w-64 h-64 mx-auto md:mx-0 rounded-2xl bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center border border-border">
-              <div className="text-6xl font-bold text-accent">LK</div>
+            <div className="w-64 h-64 mx-auto md:mx-0 rounded-2xl overflow-hidden border border-border">
+              <img 
+                src="/lovable-uploads/0ded2b67-a385-4ee4-9ae6-dc870678a291.png" 
+                alt="Lokesh Krishna Koyya"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           
