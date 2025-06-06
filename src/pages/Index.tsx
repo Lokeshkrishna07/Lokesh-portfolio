@@ -1,12 +1,48 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import ThemeToggle from "@/components/ThemeToggle";
+import HeroBanner from "@/components/HeroBanner";
+import ProfileCard from "@/components/ProfileCard";
+import Timeline from "@/components/Timeline";
+import ProjectGrid from "@/components/ProjectGrid";
+import SkillTags from "@/components/SkillTags";
+import AchievementList from "@/components/AchievementList";
+import TestimonialCard from "@/components/TestimonialCard";
+import FunFactBlock from "@/components/FunFactBlock";
+import ContactFooter from "@/components/ContactFooter";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <ThemeToggle />
+      
+      <HeroBanner
+        name="Lokesh Krishna Koyya"
+        subtitle="Software Engineer | CSE @ IIIT Nuzvid"
+        buttons={["Explore Projects", "Get in Touch", "Download Resume"]}
+      />
+      
+      <ProfileCard
+        education="B.Tech in Computer Science, IIIT Nuzvid (2021–2025), CGPA: 8.5"
+        summary="I specialize in real-world problem-solving with AI, automation, and intelligent tooling. From data pipelines to backend APIs, I build for scale and reliability."
+      />
+      
+      <Timeline />
+      
+      <ProjectGrid />
+      
+      <SkillTags />
+      
+      <AchievementList />
+      
+      <TestimonialCard />
+      
+      <FunFactBlock />
+      
+      <ContactFooter
+        email="lokeshkrishnakoyya@gmail.com"
+        linkedin="https://linkedin.com/in/lokesh-krishna-koyya-75806b252/"
+        github="https://github.com/Lokeshkrishna07"
+      />
     </div>
   );
 };
