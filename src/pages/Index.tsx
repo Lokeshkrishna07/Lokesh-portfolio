@@ -6,7 +6,6 @@ import Timeline from "@/components/Timeline";
 import ProjectGrid from "@/components/ProjectGrid";
 import SkillTags from "@/components/SkillTags";
 import AchievementList from "@/components/AchievementList";
-import TestimonialCard from "@/components/TestimonialCard";
 import FunFactBlock from "@/components/FunFactBlock";
 import ContactFooter from "@/components/ContactFooter";
 
@@ -33,8 +32,6 @@ const Index = () => {
       <SkillTags />
       
       <AchievementList />
-      
-      <TestimonialCard />
       
       <FunFactBlock />
       

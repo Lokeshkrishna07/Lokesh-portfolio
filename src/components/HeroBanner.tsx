@@ -32,7 +32,7 @@ const HeroBanner = ({ name, subtitle, buttons }: HeroBannerProps) => {
           {subtitle}
         </h2>
         <p className="text-lg md:text-xl text-foreground/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-          "I build intelligent systems that automate, accelerate, and inspire."
+          "Building meaningful tech that solves real problems and makes life simpler."
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
