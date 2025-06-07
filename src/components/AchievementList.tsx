@@ -14,7 +14,7 @@ const AchievementList = () => {
       icon: Star
     },
     {
-      title: "Amazon Voucher Winner",
+      title: "Rewarded with Amazon Voucher",
       description: "₹5000 for building ChatGPT Script Generator",
       icon: Award
     },
