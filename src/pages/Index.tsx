@@ -16,7 +16,7 @@ const Index = () => {
       
       <HeroBanner
         name="Lokesh Krishna Koyya"
-        subtitle="Software Engineer | CSE @ IIIT Nuzvid"
+        subtitle="Aspiring Software Engineer | CSE @ IIIT Nuzvid"
         buttons={["Explore Projects", "Get in Touch", "Download Resume"]}
       />
       
