@@ -2,11 +2,18 @@
 import { ExternalLink, Github } from "lucide-react";
 
 const ProjectGrid = () => {
+  
   const projects = [
     {
       title: "Real-Time Accident Detection System",
-      tech: ["YOLOv8", "Django", "PyTorch"],
+      tech: ["Python","YOLOv8", "Django", "PyTorch"],
       summary: "Real-time camera feed → accident detection → license plate extraction → emergency alert system.",
+      featured: true
+    },
+    {
+      title: "Full stack Todo Application",
+      tech: ["Python","React","Django","JWT Auth"],
+      summary: "Full stack Notes Todo App where users can write their Daily Tasks.",
       featured: true
     },
     {
@@ -16,17 +23,18 @@ const ProjectGrid = () => {
       featured: true
     },
     {
+      title: "Chatgpt Dynamic Script Generator for Ionic",
+      tech: ["Python", "Flask"],
+      summary: "Four-shot prompt system to create frontend automation scripts dynamically.",
+      featured: false
+    },
+    {
       title: "Neobi Punch Card Integration",
       tech: ["Flask", "ChatGPT API"],
       summary: "Excel-to-JSON field mapping with rule-based script generation via ChatGPT prompts.",
       featured: false
     },
-    {
-      title: "Dynamic Script Generator for Ionic",
-      tech: ["Python", "Flask"],
-      summary: "Four-shot prompt system to create frontend automation scripts dynamically.",
-      featured: false
-    }
+
   ];
 
   return (
@@ -51,10 +59,10 @@ const ProjectGrid = () => {
                 </h3>
                 <div className="flex gap-2 ml-4">
                   <button className="p-2 hover:bg-secondary rounded-lg transition-colors">
-                    <Github className="h-4 w-4 text-muted-foreground" />
+                    {/* <Github className="h-4 w-4 text-muted-foreground" /> */}
                   </button>
                   <button className="p-2 hover:bg-secondary rounded-lg transition-colors">
-                    <ExternalLink className="h-4 w-4 text-muted-foreground" />
+                    {/* <ExternalLink className="h-4 w-4 text-muted-foreground" /> */}
                   </button>
                 </div>
               </div>

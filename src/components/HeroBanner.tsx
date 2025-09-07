@@ -15,7 +15,7 @@ const HeroBanner = ({ name, subtitle, buttons }: HeroBannerProps) => {
 
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=1YCbqmTSu1s2s4U2FP5cPHOx00RRGr3mj";
+    link.href = "https://drive.google.com/file/d/17VEd6sL3Ak6pAmMrPwYRByDHTy23OwKI/view?usp=drivesdk";
     link.download = "Lokesh_Krishna_Koyya_Resume.pdf";
     document.body.appendChild(link);
     link.click();

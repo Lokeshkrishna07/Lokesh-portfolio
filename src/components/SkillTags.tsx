@@ -2,8 +2,8 @@
 const SkillTags = () => {
   const skillCategories = {
     "Languages": ["Python", "C", "Java", "SQL", "JavaScript", "HTML/CSS"],
-    "Frameworks/Tools": ["Flask", "Git", "Docker", "Postman", "VS Code"],
-    "Libraries": ["Pandas", "NumPy", "PyTorch", "YOLOv8", "NetworkX"],
+    "Frameworks/Tools": ["Django", "Git", "Docker basic", "Postman", "VS Code"],
+    "Libraries": ["Flask","Pandas", "NumPy", "PyTorch", "YOLOv8", "NetworkX"],
     "Databases": ["MySQL"],
     "Soft Skills": ["Leadership", "Communication", "Problem Solving"]
   };

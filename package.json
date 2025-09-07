@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Lokeshkrishna07.github.io/Lokesh-portfolio",
-
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
